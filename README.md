@@ -1,7 +1,5 @@
 # Setting Flightradar 24 and Flightaware simultaneously in a Raspberry pi. 
 
-*On Raspberry pi zero + micro-usb_hub + USB-SDR + usb-wifi*
-
 ### Before start - make note 
 
 1. Account Flightradar 24  <https://www.flightradar24.com>
