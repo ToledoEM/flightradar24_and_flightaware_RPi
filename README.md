@@ -11,7 +11,7 @@
 No need to set up manually Rtl-sdr driver or Dump1090.  
 
 Install flightradar24  
-<https://www.flightradar24.com/raspberry-pi> 
+<https://www.flightradar24.com/share-your-data>
 
 ``sudo bash -c "$(wget -O - http://repo.feed.flightradar24.com/install_fr24_rpi.sh)"``
 Follow instructions in the screen.
@@ -25,8 +25,8 @@ http://raspberry.pi.ip:8754/
 PiAware installation process :
 
 ```
-wget http://flightaware.com/adsb/piaware/files/packages/pool/piaware/p/piaware-support/piaware-repository_3.1.0_all.deb
-sudo dpkg -i piaware-repository_3.1.0_all.deb
+wget https://uk.flightaware.com/adsb/piaware/files/packages/pool/piaware/p/piaware-support/piaware-repository_4.0_all.deb
+sudo dpkg -i piaware-repository_4.0_all.deb
 sudo apt-get update
 sudo apt-get install piaware
 ```
